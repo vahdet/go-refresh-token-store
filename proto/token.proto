@@ -1,0 +1,19 @@
+syntax = "proto3";  // specify proto version
+
+package proto;
+
+service TokenService {
+    rpc Get (UserId) returns (UserToken) {}
+    rpc Create (UserToken) returns (UserId) {}
+    rpc Update (UserToken) returns (UserId) {}
+    rpc Delete (UserId) returns (UserId) {}
+}
+
+message UserId {
+    int64 value = 1;
+}
+
+message UserToken {
+    int64 userId = 1;
+    string token = 2;
+}
