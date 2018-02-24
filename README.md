@@ -30,3 +30,12 @@ behind the services defined in the `.proto` file.
 
 For this case, the server implementation is performed in `./grpcserver/server.go` file.
 
+### Git Tips for humble beings
+The [StackOverflow answer](https://stackoverflow.com/a/23328996/4636715) resembles three lines of general purpose git commands
+that can be used anytime a change is made and should be committed to `master` branch:
+
+```bash
+git add .
+git commit -a -m "My classical message to be replaced"
+git push
+```
