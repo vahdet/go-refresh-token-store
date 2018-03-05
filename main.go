@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	defaultGrpcPort = "5300"
+	defaultGrpcPort = "5302"
 )
 
 func main() {

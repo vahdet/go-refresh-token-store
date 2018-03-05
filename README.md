@@ -2,6 +2,8 @@
 
 This module manages the storage of the **refresh tokens**.
 
+It listens to the port **5302**.
+
 ![alt text](diagram.png)
 
 > Requires a valid refresh token, **cannot generate** one itself.

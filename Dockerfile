@@ -13,5 +13,5 @@ RUN go install github.com/vahdet/go-refresh-token-store
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/go-refresh-token-store
 
-# Document that the service listens on port 5300 .
+# Document that the service listens on port 5300.
 EXPOSE 5300
