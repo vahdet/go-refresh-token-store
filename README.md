@@ -2,7 +2,7 @@
 
 This module manages the storage of the **refresh tokens**.
 
-It listens to the port **5302**.
+It listens to the port **5300**.
 
 ![alt text](diagram.png)
 
