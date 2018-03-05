@@ -1,6 +1,6 @@
 package interfaces
 
-import "github.com/vahdet/go-refresh-token-store/models"
+import "github.com/vahdet/go-refresh-token-store-redis/models"
 type (
 	UserService interface {
 		Get(id int64) (*models.UserRefreshToken, error)

@@ -3,10 +3,10 @@ package services
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/vahdet/go-refresh-token-store/models"
+	"github.com/vahdet/go-refresh-token-store-redis/models"
 	"gopkg.in/go-playground/validator.v9"
 	"fmt"
-	"github.com/vahdet/go-refresh-token-store/dal/interfaces"
+	"github.com/vahdet/go-refresh-token-store-redis/dal/interfaces"
 )
 
 var validate *validator.Validate

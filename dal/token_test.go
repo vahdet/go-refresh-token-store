@@ -3,7 +3,7 @@
 package dal
 
 import (
-	"github.com/vahdet/go-refresh-token-store/models"
+	"github.com/vahdet/go-refresh-token-store-redis/models"
 	"testing"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/docker/docker/api/types/container"
@@ -16,7 +16,7 @@ import (
 	"strings"
 	"strconv"
 	"github.com/docker/go-connections/nat"
-	"github.com/vahdet/go-refresh-token-store/dal/interfaces"
+	"github.com/vahdet/go-refresh-token-store-redis/dal/interfaces"
 	"time"
 )
 

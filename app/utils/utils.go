@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/vahdet/go-refresh-token-store/models"
-	pb "github.com/vahdet/go-refresh-token-store/proto"
+	"github.com/vahdet/go-refresh-token-store-redis/models"
+	pb "github.com/vahdet/go-refresh-token-store-redis/proto"
 )
 
 func ConvertModelToProto(token *models.UserRefreshToken) (*pb.UserToken, error) {

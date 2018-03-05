@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/vahdet/go-refresh-token-store/dal"
-	"github.com/vahdet/go-refresh-token-store/services"
+	"github.com/vahdet/go-refresh-token-store-redis/dal"
+	"github.com/vahdet/go-refresh-token-store-redis/services"
 	"net"
-	pb "github.com/vahdet/go-refresh-token-store/proto"
+	pb "github.com/vahdet/go-refresh-token-store-redis/proto"
 	"google.golang.org/grpc"
-	"github.com/vahdet/go-refresh-token-store/grpcserver"
+	"github.com/vahdet/go-refresh-token-store-redis/grpcserver"
 	"google.golang.org/grpc/reflection"
 	log "github.com/sirupsen/logrus"
 )

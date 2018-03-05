@@ -1,7 +1,7 @@
 package dal
 
 import (
-	"github.com/vahdet/go-refresh-token-store/models"
+	"github.com/vahdet/go-refresh-token-store-redis/models"
 	log "github.com/sirupsen/logrus"
 	"fmt"
 	"github.com/go-redis/redis"

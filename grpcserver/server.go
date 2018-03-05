@@ -5,11 +5,11 @@ import (
 	"fmt"
 
 	log "github.com/sirupsen/logrus"
-	pb "github.com/vahdet/go-refresh-token-store/proto"
+	pb "github.com/vahdet/go-refresh-token-store-redis/proto"
 	"golang.org/x/net/context"
 
-	"github.com/vahdet/go-refresh-token-store/services/interfaces"
-	"github.com/vahdet/go-refresh-token-store/app/utils"
+	"github.com/vahdet/go-refresh-token-store-redis/services/interfaces"
+	"github.com/vahdet/go-refresh-token-store-redis/app/utils"
 )
 
 type UserServer struct {
